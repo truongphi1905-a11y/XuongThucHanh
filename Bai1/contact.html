@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/contact.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="contact">
+        <div class="container contact__inner">
+          <h2>Book a table</h2>
+          <form class="contact__form" action="">
+            <input type="text" name="customer-name" placeholder="Your Name" />
+            <input
+              type="tel"
+              name="customer-tel"
+              placeholder="Your Phone Number"
+            />
+            <input
+              type="email"
+              name="customer-email"
+              placeholder="Your Email"
+            />
+            <input
+              type="number"
+              name="customer-number"
+              placeholder="How many person?"
+              min="1"
+              max="100"
+              step="1"
+            />
+            <input type="date" name="book-date" />
+            <button type="submit" class="btn btn__primary contact__form-btn">
+              BOOK NOW
+            </button>
+          </form>
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.442726556137!2d106.62322047480612!3d10.85389238929962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b6c59ba4c97%3A0x535e784068f1558b!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1770435341241!5m2!1svi!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
